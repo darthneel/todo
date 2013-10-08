@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+  	<title>JS ToDo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/skeleton.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles/layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  	<script src="scripts/underscore.min.js"></script>
+    <script src="scripts/todo.js"></script>
+  </head>
+
+  <body>
+  	<div class = "container">
+	  	<div id = "container">
+	  		<h1> ToDo: JS Edition </h1>
+
+	  		<p> Unfinished Tasks </p>
+	  		<div id = "unfinished">
+	  			<input type="text" name = "unfinishedtasks" placeholder = "Enter New Task" id="new-task-field" autofocus/>
+	  			<input type="button" value="Add Task" id="add-item">
+	  			<ol id="todo-items">
+	  			</ol>
+	  		</div>
+
+	  		<p> Finished Tasks </p>
+	  		<div id = "finished">
+	  			<ul id = "completed-items">
+	  			</ul>
+	  		</div>
+		</div>
+	</div>
+  </body>
+</html>

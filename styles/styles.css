@@ -1,0 +1,122 @@
+
+body {  
+  background: url('../images/woodback.jpg') no-repeat center center fixed;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: white;
+}
+
+h1 {
+  color: #0092B2;
+}
+
+p {
+  margin: 0px;
+}
+
+li {
+  margin: 5px;
+  font-weight:bold;
+}
+
+ol {
+  font-weight:bold;
+}
+
+ul {
+  font-weight:bold;
+}
+
+hr {
+  width: 510px;
+}
+
+#container {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+#new-task-field {
+  padding: 10px;
+  border: none;
+  width: 789px;
+  margin: 0 0 0 45px;
+}
+
+.items {
+  padding: 10px;
+  background: white;
+  color: #808080;
+}
+.meta-data {
+  color: #aaaaaa;
+  font-size: small;
+  font-style: italic;
+}
+
+#unfinished,
+#finished {
+  margin: 10px 0 10px 0;
+  padding: 10px 40px 10px 10px;
+  background: rgba(223, 211, 182, .5);
+  border-radius: 10px;
+  color: #eeeeee;
+}
+#finished li {
+  list-style-type: none;
+}
+#finished li .items {
+  color: #aaaaaa;
+}
+
+.actions {
+  float: right;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  padding: 5px;
+  background: #A8C545;
+}
+
+button:hover {
+  background: #90A83B;
+ /* color: white;*/
+}
+
+.delete {
+  background: #eecccc;
+}
+
+.complete {
+  margin: 5px;
+  border: none;
+  padding: 5px;
+  background: #A8C545;
+  margin-left: 100px;
+  background: #eeeeee;
+}
+
+#add-item {
+  color:white;
+  font-weight: 1px;
+  background: #A8C545;
+  padding: 10px 10px 10px 10px;
+  display: inline;
+  color: #444;
+  text-shadow: 0 1px rgba(255, 255, 255, .75)
+}
+
+#add-item:hover {
+  background: #90A83B;
+ /* color: white;*/
+}
+
+#new-task-field {
+    width: 400px;
+    display: inline;
+}
+
+
+
